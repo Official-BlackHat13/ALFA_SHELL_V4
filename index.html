@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>Hacked By BlackHat13</title>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=us-ascii">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Almendra+Display|Almendra+SC|Piedra&amp;display=swap" rel="stylesheet">
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.js"></script>
+
+<script src="js/jquery-1.10.2.min.js.download"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+
+	if (document.all||document.getElementById){
+
+var thetitle=document.title
+
+document.title=''}
+
+var data="01";
+
+var done=1;
+
+function statusIn(text){decrypt(text,3,40);}
+
+function statusOut(){self.status='';done=1;}
+
+function decrypt(text, max, delay){
+
+if (done){done = 0;
+
+rantit(text, max, delay, 0, max);
+
+} 
+
+}
+
+function rantit(text, runs_left, delay, charvar, max){
+
+if (!done){
+
+runs_left = runs_left - 1;
+
+var status = text.substring(0,charvar);
+
+for(var current_char = charvar; current_char < text.length; current_char++){
+
+status += data.charAt(Math.round(Math.random()*data.length));
+
+}
+
+document.title = status;
+
+var rerun = "rantit('" + text + "'," + runs_left + "," + delay + "," + charvar + "," + max + ");"
+
+var new_char = charvar + 1;
+
+var next_char = "rantit('" + text + "'," + max + "," + delay + "," + new_char + "," + max + ");"
+
+if(runs_left > 0){setTimeout(rerun, delay);}
+
+else{if (charvar < text.length){setTimeout(next_char, Math.round(delay*(charvar+3)/(charvar+1)));}
+
+else
+
+{done = 1;}}}}
+
+if (document.all||document.getElementById)
+
+statusIn(thetitle)
+
+</script>
+	<style>
+		body{
+
+		background-color:#e5e5e5;cursor:url(http://cur.cursors-4u.net/cursors/cur-9/cur862.ani),url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png),progress!important}h1{font-family:"AlmendraDisplay";color:#ff0
+
+		}
+
+		#particles-js{
+
+		width:100%;height:100%;background-size:cover;background-position:50%50%;position:fixed;top:0;z-index:1
+
+		}
+</style>
+</head>
+<body>
+<div id="particles-js"></div>
+<script>
+	$.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js",function(){particlesJS("particles-js",{particles:{number:{value:80,density:{enable:!0,value_area:800}},color:{value:"#fff"},shape:{type:"circle",stroke:{width:0,color:"#000000"},polygon:{nb_sides:5},image:{width:100,height:100}},opacity:{value:.5,random:!1,anim:{enable:!1,speed:1,opacity_min:.1,sync:!1}},size:{value:5,random:!0,anim:{enable:!1,speed:40,size_min:.1,sync:!1}},line_linked:{enable:!0,distance:150,color:"#FF0000",opacity:.4,width:1},move:{enable:!0,speed:2,direction:"none",random:!1,straight:!1,out_mode:"out",attract:{enable:!1,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!0,mode:"repulse"},onclick:{enable:!0,mode:"push"},resize:!0},modes:{grab:{distance:400,line_linked:{opacity:1}},bubble:{distance:400,size:50,duration:2,opacity:8,speed:1},repulse:{distance:200},push:{particles_nb:4},remove:{particles_nb:2}}},retina_detect:!0,config_demo:{hide_card:!1,background_color:"#b61924",background_image:"",background_position:"50% 50%",background_repeat:"no-repeat",background_size:"cover"}})});
+
+</script>
+<br>
+	<p align="center">
+<img src="https://tryhackme-images.s3.amazonaws.com/user-avatars/b69c4a00427e7f828333aa3a1b466acf.png" width="400" align="middle" border="0" alt="billelis-01-removebg-preview">
+	</p>
+	<center>
+<script>
+		function farbschrift(){for(var F=0;F<Buchstabe.length;F++)document.all["a"+F].style.color=farben[F];farbverlauf()}function string2array(F){for(Buchstabe=new Array;farben.length<F.length;)farben=farben.concat(farben);for(k=0;k<=F.length;)Buchstabe[k]=F.charAt(k),k++}function divserzeugen(){for(var F=0;F<Buchstabe.length;F++)document.write("<font face='Courier' size='90'><span id='a"+F+"' class='a"+F+"'>"+Buchstabe[F]+"</span></font>");farbschrift()}function farbverlauf(){for(var F=0;F<farben.length;F++)farben[F-1]=farben[F];farben[farben.length-1]=farben[-1],setTimeout("farbschrift()",30)}function farbtauscher(){for(farben=farbbibliothek[farbsatz];farben.length<text.length;)farben=farben.concat(farben);farbsatz=Math.floor(Math.random()*(farbbibliothek.length-1e-4))}farbbibliothek=new Array,farbbibliothek[0]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"),farbbibliothek[1]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"),farbbibliothek[2]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"),farbbibliothek[3]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"),farbbibliothek[4]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"),farbbibliothek[5]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"),farbbibliothek[6]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"),farben=farbbibliothek[4];var a=1,farbsatz=1;setInterval("farbtauscher()",5e3),text="Hacked By BlackHat13",string2array(text),divserzeugen(),startTyping(text,70,"textDestination");
+		</script>
+<br>
+<b><font color="red" face="Courier" size="4">Update Your Security! Greetings From India...</font></b>
+<br>
+<script src="https://tryhackme.com/badge/81159"></script>
+<br>
+<b><p align="center" style="color:green">Email:official.blackhat13@gmail.com</p></b>
+	<img src="https://i.ibb.co/ynRxWyb/egbzgh-jpg.gif" align="middle" border="0" alt="egbzgh-jpg">
+	</center>
+	<audio autoplay="" src="https://mp3.vlcmusic.com/download.php?track_id=28888&format=320" type="audio/mpeg"></audio>
+</body>
+</html>
