@@ -1,0 +1,33 @@
+#
+# General
+#
+COMPOSE_PROJECT_NAME=rengine
+
+#
+# SSL specific configuration
+#
+AUTHORITY_NAME=blackhat13
+AUTHORITY_PASSWORD=blackhat13
+COMPANY=reNgine
+DOMAIN_NAME=recon.example.com
+COUNTRY_CODE=US
+STATE=Georgia
+CITY=Atlanta
+
+#
+# Database configurations
+#
+POSTGRES_DB=rengine
+POSTGRES_USER=rengine
+POSTGRES_PASSWORD=blackhat13
+POSTGRES_PORT=5432
+POSTGRES_HOST=194.58.96.96
+
+#
+# Celery CONCURRENCY Autoscaling
+# The number of CONCURRENCY defines how many scans will run in parallel
+# Please always keep minimum of 5
+# To make the best use of CONCURRENCY, follow the guide https://rengine.wiki
+#
+MIN_CONCURRENCY=5
+MAX_CONCURRENCY=30
